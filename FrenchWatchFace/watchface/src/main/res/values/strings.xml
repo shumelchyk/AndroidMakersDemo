@@ -16,6 +16,8 @@
 -->
 <resources>
   <string name="watch_face_name">Vive La France!</string>
+  <string name="tricolor_label">Tricolor</string>
+  <string name="eiffel_label">Eiffel Tower</string>
   <string name="color_label">Color Theme</string>
   <string name="color_theme_0">Bold</string>
   <string name="color_theme_1">Magic</string>
