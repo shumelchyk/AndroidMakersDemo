@@ -25,6 +25,8 @@ android {
 
     defaultConfig {
         applicationId = "com.demo.vivelafrance"
+
+        // Watch Face Format is supported starting from API level 33 (Wear OS 4)
         minSdk = 33
         targetSdk = 33
         versionCode = 1

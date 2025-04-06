@@ -16,7 +16,10 @@
 -->
 <WatchFaceInfo>
   <!--
-    Preview is the only required element here.
+    Watch Face Metadata is defined here.
+
+    Preview is the only required element.
+    Editable shows if watch is customizable.
 
     For other elements, see:
     https://developer.android.com/training/wearables/wff/setup#declare-metadata
