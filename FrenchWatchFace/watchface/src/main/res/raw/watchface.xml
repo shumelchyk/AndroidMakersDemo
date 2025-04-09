@@ -31,12 +31,15 @@
       <ListOption id="eiffel" displayName="eiffel_label" screenReaderText="eiffel_label" />
     </ListConfiguration>
     <ColorConfiguration id="themeColor" displayName="color_label" defaultValue="0">
-      <ColorOption id="0" displayName="color_theme_0" colors="#ffbe0b #fb5607 #ff006e" />
-      <ColorOption id="1" displayName="color_theme_1" colors="#8ecae6 #219ebc #ffb703" />
-      <ColorOption id="2" displayName="color_theme_2" colors="#ff595e #ffca3a #8ac926" />
-      <ColorOption id="3" displayName="color_theme_3" colors="#ff0000 #00ff00 #ff00ff" />
-      <ColorOption id="4" displayName="color_theme_4" colors="#ff99c8 #fcf6bd #d0f4de" />
-      <ColorOption id="5" displayName="color_theme_5" colors="#1be7ff #6eeb83 #e4ff1a" />
+      <ColorOption id="0" displayName="color_theme_0" colors="#ffbe0b #fb5607 #ff006e"/>
+      <ColorOption id="1" displayName="color_theme_1" colors="#8ecae6 #219ebc #ffb703"/>
+      <ColorOption id="2" displayName="color_theme_2" colors="#ff595e #ffca3a #8ac926"/>
+      <ColorOption id="3" displayName="color_theme_3" colors="#ff0000 #00ff00 #ff00ff"/>
+      <ColorOption id="4" displayName="color_theme_4" colors="#ff99c8 #fcf6bd #d0f4de"/>
+      <ColorOption id="5" displayName="color_theme_5" colors="#1be7ff #6eeb83 #e4ff1a"/>
+      <ColorOption id="tricolor_0" displayName="tricolor_0" colors="#0055A4 #FFFFFF #EF4135"/>
+      <ColorOption id="tricolor_1" displayName="tricolor_1" colors="#FFFFFF #0055A4 #EF4135"/>
+      <ColorOption id="tricolor_2" displayName="tricolor_2" colors="#EF4135 #FFFFFF #0055A4"/>
     </ColorConfiguration>
   </UserConfigurations>
   <Scene>

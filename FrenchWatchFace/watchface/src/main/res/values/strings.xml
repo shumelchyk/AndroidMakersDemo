@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
     Copyright 2023 Google LLC
 
     Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,14 +14,17 @@
     limitations under the License.
 -->
 <resources>
-  <string name="watch_face_name">Vive La France!</string>
-  <string name="tricolor_label">Tricolor</string>
-  <string name="eiffel_label">Eiffel Tower</string>
-  <string name="color_label">Color Theme</string>
-  <string name="color_theme_0">Bold</string>
-  <string name="color_theme_1">Magic</string>
-  <string name="color_theme_2">Breeze</string>
-  <string name="color_theme_3">Daytime</string>
-  <string name="color_theme_4">Relaxed</string>
-  <string name="color_theme_5">Smart</string>
+    <string name="watch_face_name">Vive La France!</string>
+    <string name="tricolor_label">Tricolor</string>
+    <string name="eiffel_label">Eiffel Tower</string>
+    <string name="color_label">Color Theme</string>
+    <string name="color_theme_0">Bold</string>
+    <string name="color_theme_1">Magic</string>
+    <string name="color_theme_2">Breeze</string>
+    <string name="color_theme_3">Daytime</string>
+    <string name="color_theme_4">Relaxed</string>
+    <string name="color_theme_5">Smart</string>
+    <string name="tricolor_0">Bleu (Liberty)</string>
+    <string name="tricolor_1">Blanc (Equality)</string>
+    <string name="tricolor_2">Rouge (Fraternity)</string>
 </resources>
