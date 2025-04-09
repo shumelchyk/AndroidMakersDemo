@@ -25,6 +25,8 @@
   <Metadata key="CLOCK_TYPE" value="ANALOG" />
   <Metadata key="PREVIEW_TIME" value="10:08:32" />
   <UserConfigurations>
+    <BooleanConfiguration id="baguetteMode" displayName="baguette_mode_label"
+        screenReaderText="baguette_mode_label" defaultValue="FALSE"/>
     <ListConfiguration id="background" displayName="background_label"
         screenReaderText="background_label" defaultValue="tricolor">
       <ListOption id="tricolor" displayName="tricolor_label" screenReaderText="tricolor_label" />
@@ -66,19 +68,37 @@
         </PartImage>
       </ListOption>
     </ListConfiguration>
-    <AnalogClock x="0" y="0" width="450" height="450">
-      <HourHand resource="hour" x="210" y="75" width="30" height="180" pivotX="0.5"
-          pivotY="0.8333" tintColor="[CONFIGURATION.themeColor.0]">
-      </HourHand>
-      <MinuteHand resource="minute" x="210" y="30" width="30" height="220" pivotX="0.5"
-          pivotY="0.8864" tintColor="[CONFIGURATION.themeColor.1]">
-      </MinuteHand>
-      <SecondHand resource="second" x="215" y="30" width="20" height="240" pivotX="0.5"
-          pivotY="0.8125" tintColor="[CONFIGURATION.themeColor.2]">
-        <Variant mode="AMBIENT" target="alpha" value="0" />
-        <Sweep frequency="15" />
-      </SecondHand>
-    </AnalogClock>
-
+    <BooleanConfiguration id="baguetteMode">
+      <BooleanOption id="FALSE">
+          <AnalogClock x="0" y="0" width="450" height="450">
+              <HourHand resource="hour" x="210" y="75" width="30" height="180" pivotX="0.5"
+                  pivotY="0.8333" tintColor="[CONFIGURATION.themeColor.0]">
+              </HourHand>
+              <MinuteHand resource="minute" x="210" y="30" width="30" height="220" pivotX="0.5"
+                  pivotY="0.8864" tintColor="[CONFIGURATION.themeColor.1]">
+              </MinuteHand>
+              <SecondHand resource="second" x="215" y="30" width="20" height="240" pivotX="0.5"
+                  pivotY="0.8125" tintColor="[CONFIGURATION.themeColor.2]">
+                  <Variant mode="AMBIENT" target="alpha" value="0" />
+                  <Sweep frequency="15" />
+              </SecondHand>
+          </AnalogClock>
+      </BooleanOption>
+      <BooleanOption id="TRUE">
+          <AnalogClock x="0" y="0" width="450" height="450">
+              <HourHand resource="hour_baguette" x="210" y="75" width="30" height="180" pivotX="0.5"
+                  pivotY="0.8333" tintColor="#ffe699">
+              </HourHand>
+              <MinuteHand resource="minute_baguette" x="210" y="30" width="30" height="220" pivotX="0.5"
+                  pivotY="0.8864" tintColor="#ffe699">
+              </MinuteHand>
+            <SecondHand resource="second" x="215" y="30" width="20" height="240" pivotX="0.5"
+                pivotY="0.8125" tintColor="#ffe699">
+              <Variant mode="AMBIENT" target="alpha" value="0" />
+              <Sweep frequency="15" />
+            </SecondHand>
+          </AnalogClock>
+      </BooleanOption>
+    </BooleanConfiguration>
   </Scene>
 </WatchFace>
