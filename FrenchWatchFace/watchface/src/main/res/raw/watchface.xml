@@ -49,16 +49,14 @@
     </Group>
 
     <AnalogClock x="0" y="0" width="450" height="450">
-      <Variant mode="AMBIENT" target="alpha" value="192" />
-
-      <HourHand resource="hour" x="215" y="50" width="20" height="190" pivotX="0.5"
-        pivotY="0.92105263157" tintColor="[CONFIGURATION.themeColor.0]">
+      <HourHand resource="hour" x="210" y="75" width="30" height="180" pivotX="0.5"
+          pivotY="0.8333" tintColor="[CONFIGURATION.themeColor.0]">
       </HourHand>
-      <MinuteHand resource="minute" x="217" y="25" width="16" height="220" pivotX="0.5" pivotY="0.9"
-        tintColor="[CONFIGURATION.themeColor.1]">
+      <MinuteHand resource="minute" x="210" y="30" width="30" height="220" pivotX="0.5"
+          pivotY="0.8864" tintColor="[CONFIGURATION.themeColor.1]">
       </MinuteHand>
-      <SecondHand resource="second" x="221" y="15" width="8" height="245" pivotX="0.5"
-        pivotY="0.85714285714" tintColor="[CONFIGURATION.themeColor.2]">
+      <SecondHand resource="second" x="215" y="30" width="20" height="240" pivotX="0.5"
+          pivotY="0.8125" tintColor="[CONFIGURATION.themeColor.2]">
         <Variant mode="AMBIENT" target="alpha" value="0" />
         <Sweep frequency="15" />
       </SecondHand>
@@ -69,5 +67,6 @@
         <Fill color="#000000" />
       </Ellipse>
     </PartDraw>
+
   </Scene>
 </WatchFace>
